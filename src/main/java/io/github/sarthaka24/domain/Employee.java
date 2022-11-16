@@ -11,6 +11,7 @@ public class Employee {
     private String phone;
     @Autowired
     private Department dept;
+    @Autowired
     private List<Project> projects;
 
     public Employee() {
