@@ -1,10 +1,13 @@
 package io.github.sarthaka24.domain;
 
+import org.springframework.beans.factory.annotation.Autowired;
+
 public class Employee {
     private int id;
     private String name;
     private String email;
     private String phone;
+    @Autowired
     private Department dept;
 
     public Employee() {
