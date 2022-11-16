@@ -18,11 +18,6 @@ public class Employee {
         this.dept = dept;
     }
 
-    @Override
-    public String toString() {
-        return "Employee{" + "id=" + id + ", name='" + name + '\'' + ", email='" + email + '\'' + ", phone='" + phone + '\'' + ", dept=" + dept + '}';
-    }
-
     public Department getDept() {
         return dept;
     }
@@ -63,4 +58,14 @@ public class Employee {
         this.phone = phone;
     }
 
+    @Override
+    public String toString() {
+        return "Employee{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", email='" + email + '\'' +
+                ", phone='" + phone + '\'' +
+                ", dept=" + dept +
+                '}';
+    }
 }
