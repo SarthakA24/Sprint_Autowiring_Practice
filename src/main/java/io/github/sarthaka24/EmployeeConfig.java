@@ -2,7 +2,11 @@ package io.github.sarthaka24;
 
 import io.github.sarthaka24.domain.Department;
 import io.github.sarthaka24.domain.Employee;
+import io.github.sarthaka24.domain.Project;
 import org.springframework.context.annotation.Bean;
+
+import java.util.Arrays;
+import java.util.List;
 
 public class EmployeeConfig {
 
@@ -19,5 +23,10 @@ public class EmployeeConfig {
     @Bean
     public Department getDepartment1() {
         return new Department(1, "IT");
+    }
+
+    @Bean
+    public List<Project> getProjects() {
+        return Arrays.asList(new Project(1, "Angular"), new Project(2, "Spring"));
     }
 }
