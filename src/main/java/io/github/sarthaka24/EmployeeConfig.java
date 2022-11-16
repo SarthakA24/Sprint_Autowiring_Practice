@@ -6,7 +6,7 @@ import org.springframework.context.annotation.Bean;
 
 public class EmployeeConfig {
 
-    @Bean("Customer 1")
+    @Bean("Employee 1")
     public Employee getEmployee1() {
         Employee employee = new Employee();
         employee.setId(1);
@@ -16,7 +16,7 @@ public class EmployeeConfig {
         return employee;
     }
 
-    @Bean("Department 1")
+    @Bean
     public Department getDepartment1() {
         return new Department(1, "IT");
     }
