@@ -2,6 +2,8 @@ package io.github.sarthaka24.domain;
 
 import org.springframework.beans.factory.annotation.Autowired;
 
+import java.util.List;
+
 public class Employee {
     private int id;
     private String name;
@@ -9,16 +11,26 @@ public class Employee {
     private String phone;
     @Autowired
     private Department dept;
+    private List<Project> projects;
 
     public Employee() {
     }
 
-    public Employee(int id, String name, String email, String phone, Department dept) {
+    public Employee(int id, String name, String email, String phone, Department dept, List<Project> projects) {
         this.id = id;
         this.name = name;
         this.email = email;
         this.phone = phone;
         this.dept = dept;
+        this.projects = projects;
+    }
+
+    public List<Project> getProjects() {
+        return projects;
+    }
+
+    public void setProjects(List<Project> projects) {
+        this.projects = projects;
     }
 
     public Department getDept() {
@@ -69,6 +81,7 @@ public class Employee {
                 ", email='" + email + '\'' +
                 ", phone='" + phone + '\'' +
                 ", dept=" + dept +
+                ", projects=" + projects +
                 '}';
     }
 }

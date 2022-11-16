@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="52c05c67-a891-4bc2-a7a8-5caf6bacba28" name="Changes" comment="corrected the bean names" />
+    <list default="true" id="52c05c67-a891-4bc2-a7a8-5caf6bacba28" name="Changes" comment="added fields, constructor, getter and setter and toString for Project domain">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/sarthaka24/domain/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/sarthaka24/domain/Employee.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -66,7 +69,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1668593850753</updated>
-      <workItem from="1668593853227" duration="2277000" />
+      <workItem from="1668593853227" duration="2466000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1668593951093</created>
@@ -145,7 +148,21 @@
       <option name="project" value="LOCAL" />
       <updated>1668595903139</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="added Project.java domain class">
+      <created>1668596188067</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1668596188067</updated>
+    </task>
+    <task id="LOCAL-00013" summary="added fields, constructor, getter and setter and toString for Project domain">
+      <created>1668596295840</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1668596295840</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -174,7 +191,9 @@
     <MESSAGE value="added Autowired annotation for Department" />
     <MESSAGE value="added the main method and displayed the bean" />
     <MESSAGE value="corrected the bean names" />
-    <option name="LAST_COMMIT_MESSAGE" value="corrected the bean names" />
+    <MESSAGE value="added Project.java domain class" />
+    <MESSAGE value="added fields, constructor, getter and setter and toString for Project domain" />
+    <option name="LAST_COMMIT_MESSAGE" value="added fields, constructor, getter and setter and toString for Project domain" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
