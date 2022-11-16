@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="52c05c67-a891-4bc2-a7a8-5caf6bacba28" name="Changes" comment="added fields, constructor, getter and setter and toString methods for Employee">
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/sarthaka24/domain/Department.java" afterDir="false" />
+    <list default="true" id="52c05c67-a891-4bc2-a7a8-5caf6bacba28" name="Changes" comment="added department class and its fields">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/sarthaka24/domain/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/sarthaka24/domain/Employee.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +49,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1668593850753</updated>
-      <workItem from="1668593853227" duration="294000" />
+      <workItem from="1668593853227" duration="421000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1668593951093</created>
@@ -71,7 +72,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668594079872</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="added department class and its fields">
+      <created>1668594180427</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1668594180427</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -92,7 +100,8 @@
     <MESSAGE value="initial commit" />
     <MESSAGE value="added spring framework dependency" />
     <MESSAGE value="added fields, constructor, getter and setter and toString methods for Employee" />
-    <option name="LAST_COMMIT_MESSAGE" value="added fields, constructor, getter and setter and toString methods for Employee" />
+    <MESSAGE value="added department class and its fields" />
+    <option name="LAST_COMMIT_MESSAGE" value="added department class and its fields" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
